@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>EestecPl</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>EESTEC AGH Kraków - międzynarodowa organizacja studencka</title>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <a href="https://plus.google.com/102184692493866592982" rel="publisher">Google+</a>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+	<%= render 'layouts/header' %>
+	<%= yield %>
 
 </body>
 </html>
+
+
+
+
