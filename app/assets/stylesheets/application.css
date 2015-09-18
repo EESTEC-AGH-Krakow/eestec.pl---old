@@ -24,7 +24,7 @@ html,body
 	font-size: 13px;
 	font-family: arial, helvetica, sans-serif;
 	color: #333333;
-	background: url('../img/background.png') repeat;
+	background: url('background.png') repeat;
 }
 
 a[rel="publisher"] {
