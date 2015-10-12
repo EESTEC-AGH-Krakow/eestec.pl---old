@@ -1,11 +1,11 @@
 <div id="header">
   <div class = "wrapper">
     <div id="logo">
-      <a href="index.php"><%= image_tag("eestec2.png", alt: "eestec") %></a>
+      <%= link_to image_tag("eestec2.png", alt: "eestec"), root_path %>
     </div>
     <div id="navigation">
       <ul id="menu">
-        <li class="home"><a href="index.php">Główna</a></li>
+        <li><%= link_to "Główna", root_path %></li>
         <li class="blog"><a href="#">Aktualności</a>
           <ul class="submenu">  
             <li><a href="blog.php">Z życia LC...</a></li>
@@ -14,7 +14,7 @@
         </li>
         <li class="eestec"><a href="#">EESTEC</a>
           <ul class="submenu">
-            <li><a href="about.php">O nas</a></li>
+            <li><%= link_to "O nas", about_us_path %></li>
             <li><a href="groups.php">Grupy robocze</a></li>
           </ul>
         </li>
